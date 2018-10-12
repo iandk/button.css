@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 button {
   border: 0px;
@@ -13,14 +13,11 @@ button {
 
 .btn {
   display: inline-block;
-  border-radius: 4px;
-  height: 38px;
-  padding: 0 30px;
+  padding: .6rem 1.8rem;
   text-align: center;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 38px;
-  letter-spacing: .15rem;
+  font-size: 13px;
+  letter-spacing: .1rem;
+  font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -78,4 +75,15 @@ button {
 .btn-warning:hover {
   background: #ffe56d;
   color: white;
+}
+.btn-light {
+  background-color: transparent;
+  color: #606f7b;
+  border: 2px solid #dae1e7;
+}
+.btn-light:hover {
+  background-color: #dae1e7;
+  color: white;
+  transition: background-color 150ms linear, color 150ms linear ;
+
 }
