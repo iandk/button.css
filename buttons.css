@@ -1,15 +1,12 @@
 body {
   font-family: 'Nunito', sans-serif;
+  font-size: 13px;
 }
 button {
   border: 0px;
   outline: 0;
   margin: 1rem;
-
 }
-
-
-
 
 .btn {
   display: inline-block;
